@@ -13,9 +13,9 @@ public class Main {
          store.addBook(eBook);
          store.addBook(showcaseBook);
          store.buyBook("ISBN123", 2, "customer@example.com", "123 Street");
-         store.buyBook("ISBN456", 1, "customer@example.com", "N/A");
+         store.buyBook("ISBN456", 1, "customer@example.com", "NA");
         try {
-            store.buyBook("ISBN789", 1, "customer@example.com", "N/A");
+            store.buyBook("ISBN789", 1, "customer@example.com", "NA");
         }
         catch (Exception e) {
             System.out.println(e.getMessage());
